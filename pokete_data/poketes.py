@@ -1473,7 +1473,38 @@ W         W""",
     ''""",
             "esc": None}]
     },
-}
 
+"shedin": {
+        "name": "Shedin",
+        "hp": 1,
+        "atc": 12,
+        "defense": 0,
+        "attacks": ["mind_blow", "shadow_claw", "phantom_force", "spite"],
+        "pool": ["hiding"],
+        "miss_chance": 0,
+        "desc": "A discarded hollow shell. It has only 1 HP, but hits with terrifying force.",
+        "lose_xp": 10,
+        "rarity": 0.05,
+        "types": ["undead", "plant"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 10,
+        "ico": [
+            {
+                "txt": r"""   /---\
+  | ( ) |
+   \===/
+   /   \ """,
+                "esc": None
+            },
+            {
+                "txt": r"""
+
+    * * """,
+                "esc": ["thicc", "purple"]
+            }
+        ]
+    },
+}
 if __name__ == "__main__":
     print("\033[31;1mDo not execute this!\033[0m")
